@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055D25C61D751BBB00E39C49 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 055D25C51D751BBB00E39C49 /* ViewController4.m */; };
+		055D25C91D75344600E39C49 /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 055D25C81D75344600E39C49 /* ViewController5.m */; };
+		055D25CC1D75690A00E39C49 /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 055D25CB1D75690A00E39C49 /* ViewController6.m */; };
+		055D25CF1D75701100E39C49 /* ViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = 055D25CE1D75701100E39C49 /* ViewController7.m */; };
 		66E24A011D747A6F00164859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E24A001D747A6F00164859 /* main.m */; };
 		66E24A041D747A6F00164859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E24A031D747A6F00164859 /* AppDelegate.m */; };
 		66E24A071D747A6F00164859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E24A061D747A6F00164859 /* ViewController.m */; };
@@ -38,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055D25C41D751BBB00E39C49 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		055D25C51D751BBB00E39C49 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		055D25C71D75344600E39C49 /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		055D25C81D75344600E39C49 /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		055D25CA1D75690A00E39C49 /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		055D25CB1D75690A00E39C49 /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
+		055D25CD1D75701100E39C49 /* ViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController7.h; sourceTree = "<group>"; };
+		055D25CE1D75701100E39C49 /* ViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController7.m; sourceTree = "<group>"; };
 		66E249FC1D747A6F00164859 /* CAAnimation-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAAnimation-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E24A001D747A6F00164859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66E24A021D747A6F00164859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +132,14 @@
 				66E24A361D74829C00164859 /* ViewController2.m */,
 				66E24A381D74865300164859 /* ViewController3.h */,
 				66E24A391D74865300164859 /* ViewController3.m */,
+				055D25C41D751BBB00E39C49 /* ViewController4.h */,
+				055D25C51D751BBB00E39C49 /* ViewController4.m */,
+				055D25C71D75344600E39C49 /* ViewController5.h */,
+				055D25C81D75344600E39C49 /* ViewController5.m */,
+				055D25CA1D75690A00E39C49 /* ViewController6.h */,
+				055D25CB1D75690A00E39C49 /* ViewController6.m */,
+				055D25CD1D75701100E39C49 /* ViewController7.h */,
+				055D25CE1D75701100E39C49 /* ViewController7.m */,
 				66E24A081D747A6F00164859 /* Main.storyboard */,
 				66E24A0B1D747A6F00164859 /* Assets.xcassets */,
 				66E24A0D1D747A6F00164859 /* LaunchScreen.storyboard */,
@@ -285,11 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055D25C91D75344600E39C49 /* ViewController5.m in Sources */,
 				66E24A341D747C2800164859 /* ViewController1.m in Sources */,
+				055D25CF1D75701100E39C49 /* ViewController7.m in Sources */,
+				055D25CC1D75690A00E39C49 /* ViewController6.m in Sources */,
 				66E24A071D747A6F00164859 /* ViewController.m in Sources */,
 				66E24A3A1D74865300164859 /* ViewController3.m in Sources */,
 				66E24A371D74829C00164859 /* ViewController2.m in Sources */,
 				66E24A041D747A6F00164859 /* AppDelegate.m in Sources */,
+				055D25C61D751BBB00E39C49 /* ViewController4.m in Sources */,
 				66E24A011D747A6F00164859 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +540,7 @@
 				66E24A2B1D747A6F00164859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66E24A2C1D747A6F00164859 /* Build configuration list for PBXNativeTarget "CAAnimation-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				66E24A2E1D747A6F00164859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66E24A2F1D747A6F00164859 /* Build configuration list for PBXNativeTarget "CAAnimation-DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				66E24A311D747A6F00164859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

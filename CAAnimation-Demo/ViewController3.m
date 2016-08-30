@@ -41,7 +41,7 @@
 // 旋转动画
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 
-    /*
+    //*
     // 1.创建动画
     CABasicAnimation *anima = [CABasicAnimation animationWithKeyPath:@"transform"];
     
@@ -57,9 +57,9 @@
     // 2.添加动画到layer
     [self.mylayer addAnimation:anima forKey:nil];
     
-    */
+    //*/
     
-    //*
+    /*
     
     //1.创建动画
     CABasicAnimation *anima=[CABasicAnimation animation];
@@ -76,7 +76,7 @@
     
     //2.添加动画到layer
     [self.mylayer addAnimation:anima forKey:nil];
-    //*/
+    */
     
 }
 

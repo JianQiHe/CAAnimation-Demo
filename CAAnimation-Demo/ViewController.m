@@ -10,6 +10,10 @@
 #import "ViewController1.h"
 #import "ViewController2.h"
 #import "ViewController3.h"
+#import "ViewController4.h"
+#import "ViewController5.h"
+#import "ViewController6.h"
+#import "ViewController7.h"
 
 @interface ViewController ()
 
@@ -28,12 +32,12 @@
 
 - (void)createView {
     
-    for (int i = 0; i < 10; i ++) {
+    for (int i = 0; i < 8; i ++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
         [button setTitle:[NSString stringWithFormat:@"%d", i + 1] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        button.frame = CGRectMake(30 + (70 + 10)*(i%4), 100 + (40 + 10) * (i/4), 70, 40);
+        button.frame = CGRectMake(30 + (150 + 10)*(i/4), 100 + (80 + 10) * (i%4), 150, 80);
         button.titleLabel.font = [UIFont boldSystemFontOfSize:20];
         button.tag = i;
         [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -74,7 +78,38 @@
             break;
         case 3:
         {
-            
+            // 关键帧动画
+            ViewController4 *vc4 = [ViewController4 new];
+            vc4.title = @"View4";
+            vc4.view.backgroundColor = [UIColor whiteColor];
+            [self.navigationController pushViewController:vc4 animated:YES];
+        }
+            break;
+        case 4:
+        {
+            // 转场动画和组动画
+            ViewController5 *vc5 = [ViewController5 new];
+            vc5.title = @"View5";
+            vc5.view.backgroundColor = [UIColor blackColor];
+            [self.navigationController pushViewController:vc5 animated:YES];
+        }
+            break;
+        case 5:
+        {
+            // UIView 封装动画
+            ViewController6 *vc6 = [ViewController6 new];
+            vc6.title = @"View6";
+            vc6.view.backgroundColor = [UIColor whiteColor];
+            [self.navigationController pushViewController:vc6 animated:YES];
+        }
+            break;
+        case 6:
+        {
+            // UIView 封装动画
+            ViewController7 *vc7 = [ViewController7 new];
+            vc7.title = @"View7";
+            vc7.view.backgroundColor = [UIColor whiteColor];
+            [self.navigationController pushViewController:vc7 animated:YES];
         }
             break;
         default:
